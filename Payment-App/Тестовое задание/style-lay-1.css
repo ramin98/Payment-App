@@ -1,0 +1,207 @@
+body{
+    display: flex;
+    width: 100%;
+    background: #E5E5E5;
+}
+
+
+@font-face{
+    font-family: GilroyBold;
+    src: url('fonts/Gilroy-ExtraBold.otf');
+}
+
+@font-face{
+    font-family: GilroyLight;
+    src: url('fonts/Gilroy-Light.otf');
+}
+
+.main-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout-1{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 60px #E2E7FF;
+    border-radius: 0px 50px 50px 50px;
+    height: 535px;
+    width: 432px;
+    justify-content: center;
+}
+
+.layout-1-info{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 0px;
+    
+}
+
+.layout-1-scroll{
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    overflow-y: scroll;
+    padding-right: 30px;
+    width: 340px;   
+}
+
+.display-none{
+    display: none;
+}
+
+.layout-1-scroll::-webkit-scrollbar-track
+{
+    margin-left: 20px;
+    background-color: #E1E3EE;
+}
+
+.layout-1-scroll::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #E1E3EE;
+    border-radius: 5px;
+}
+
+.layout-1-scroll::-webkit-scrollbar-thumb
+{
+    background-color: #23C967;
+    border: 1px solid #23C967;
+    border-radius: 5px;
+}
+
+.layout-1-subscribe{
+    font-family: GilroyBold;
+    color: #1C154E;
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-delete-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.delete{
+ 
+}
+
+.delete::after{
+    content: url("img/x-mark.png");
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.layout-1-information{
+    font-size: 16px;
+    font-family: GilroyLight;
+    color: #1C154E;
+    opacity: 0.8;
+    margin: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.layout-1-form{
+
+}
+
+.layout-1-input{
+    border: none;
+    outline: none;
+    font-family: GilroyLight;
+    font-size: 16px;
+    color: #D0D3E2;
+    border-bottom: 1.5px solid #E1E3EE;
+    width: 100%;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.layout-1-add{
+    font-weight: 600;
+    font-size: 18px;
+    color: #23C967;
+    font-family: GilroyBold;
+    margin: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+.layout-1-add::after{
+    content: url("img/add.png");
+    margin-left: 5px;
+}
+
+
+
+.layout-1-button{
+    display: flex;
+    background: #23C967;
+    border-radius: 15px;  
+    width: 100%;
+    font-family: GilroyBold;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-top: 20px;
+    height: 45px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout-1-button:hover{
+    box-shadow: #0af76d 0px 1px 1px 2px;
+}
+
+.layout-1-secure{
+    font-family: GilroyLight;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AFB4CC;
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout-1-secure::before{
+    content: url("img/key.png");
+    text-align: center;
+    margin-right: 5px;
+}
+
+.product-1{
+    flex-direction: column;
+}
+
+.product-2{
+    flex-direction: column;
+}
+
+.product-3{
+    flex-direction: column;
+}
+
+.product-4{
+    flex-direction: column;
+}
+
+.product-5{
+    flex-direction: column;
+}

@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style-lay-1.css">
+        <link rel="stylesheet" href="style-lay-2.css">
+        <link rel="stylesheet" href="style-lay-3-4.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="layout-1" id="lay-1">
+                <div class="layout-1-info">
+                    <p class="layout-1-subscribe">Info</p>
+                    <p class="layout-1-information">Enter your email address</p>
+                    <form class="layout-1-form" action="">
+                        <input class="layout-1-input" type="text" placeholder="team@checkforpatent.com">
+                    </form>
+                    <div class="product-1-main">
+                        <p class="layout-1-subscribe">Product 1</p>
+                        <p class="layout-1-information">Enter main keyword for the product</p>
+                        <form class="layout-1-form" action="">
+                            <input class="layout-1-input" type="text" placeholder="for example, sylicon wine cup">
+                        </form>                    
+                        <p class="layout-1-information">Enter link to the similar product as a reference</p>
+                        <form class="layout-1-form" action="">
+                            <input class="layout-1-input" type="text" placeholder="https://...">
+                        </form>
+                        </div>
+                    <div class="layout-1-scroll display-none">
+                    <div class="product-1 display-none" onclick="delete_product_1()">
+                    <div class="subscribe-delete-div">
+                        <p class="layout-1-subscribe">Product 1</p>
+                        <span class="delete"></span>
+                    </div>
+                    <p class="layout-1-information">Enter main keyword for the product</p>
+                    <form class="layout-1-form" action="">
+                        <input class="layout-1-input" type="text" placeholder="for example, sylicon wine cup">
+                    </form>                    
+                    <p class="layout-1-information">Enter link to the similar product as a reference</p>
+                    <form class="layout-1-form" action="">
+                        <input class="layout-1-input" type="text" placeholder="https://...">
+                    </form>
+                    </div>
+                    <div class="product-2 display-none" onclick="delete_product_2()">
+                        <div class="subscribe-delete-div">
+                            <p class="layout-1-subscribe">Product 2</p>
+                            <span class="delete"></span>
+                        </div>
+                    <p class="layout-1-information">Enter main keyword for the product</p>
+                    <form class="layout-1-form" action="">
+                        <input class="layout-1-input" type="text" placeholder="for example, sylicon wine cup">
+                    </form>                    
+                    <p class="layout-1-information">Enter link to the similar product as a reference</p>
+                    <form class="layout-1-form" action="">
+                        <input class="layout-1-input" type="text" placeholder="https://...">
+                    </form>
+                    </div>
+                    <div class="product-3 display-none" onclick="delete_product_3()">
+                        <div class="subscribe-delete-div">
+                            <p class="layout-1-subscribe">Product 3</p>
+                            <span class="delete"></span>
+                        </div>
+                    <p class="layout-1-information">Enter main keyword for the product</p>
+                    <form class="layout-1-form" action="">
+                        <input class="layout-1-input" type="text" placeholder="for example, sylicon wine cup">
+                    </form>                    
+                    <p class="layout-1-information">Enter link to the similar product as a reference</p>
+                    <form class="layout-1-form" action="">
+                        <input class="layout-1-input" type="text" placeholder="https://...">
+                    </form>
+                    </div>
+                    <div class="product-4 display-none" onclick="delete_product_4()">
+                        <div class="subscribe-delete-div">
+                            <p class="layout-1-subscribe">Product 4</p>
+                            <span class="delete"></span>
+                        </div>
+                    <p class="layout-1-information">Enter main keyword for the product</p>
+                    <form class="layout-1-form" action="">
+                        <input class="layout-1-input" type="text" placeholder="for example, sylicon wine cup">
+                    </form>                    
+                    <p class="layout-1-information">Enter link to the similar product as a reference</p>
+                    <form class="layout-1-form" action="">
+                        <input class="layout-1-input" type="text" placeholder="https://...">
+                    </form>
+                    </div>
+                    <div class="product-5 display-none" onclick="delete_product_5()">
+                        <div class="subscribe-delete-div">
+                            <p class="layout-1-subscribe">Product 5</p>
+                            <span class="delete"></span>
+                        </div>
+                    <p class="layout-1-information">Enter main keyword for the product</p>
+                    <form class="layout-1-form" action="">
+                        <input class="layout-1-input" type="text" placeholder="for example, sylicon wine cup">
+                    </form>                    
+                    <p class="layout-1-information">Enter link to the similar product as a reference</p>
+                    <form class="layout-1-form" action="">
+                        <input class="layout-1-input" type="text" placeholder="https://...">
+                    </form>
+                   </div>
+                    </div>
+                    <p class="layout-1-add" onclick="lay_1_add()">Add more products  </p>
+                    <p class="layout-1-information">We offer discount up to 36% for multiple checks</p>
+                    <button class="layout-1-button" onclick="lay_1_button()"><p class="layout-1-button-text" >Submit and Pay 24.99 USD</p></button>
+                    <p class="layout-1-secure">Secure payment with Stripe</p>
+                </div>
+            </div>
+            <div class="layout-2" id="lay-2">
+                <div class="layout-2-info">
+                    <p class="layout-2-subscribe">Adding more products</p>
+                    <p class="layout-2-information">The more items you check, the better the price.</p>
+                    <form class="layout-2-form">
+                        <label class="container">
+                            <div class="container-div">
+                            <div class="radio">
+                                <input id="radio-1" type="radio" name="radio" onclick="radio_1()">
+                                <span class="checkmark"></span>
+                            </div>                   
+                            <div class="radio-subscribe">
+                                <p class="radio-subscribe-text-1">5 products for 80 usd / 16$ for each</p>
+                                <p class="radio-subscribe-text-2">You safe 36% on each patent check </p>
+                            </div>
+                           </div>        
+                          </label>
+                          <label class="container">
+                            <div class="container-div">
+                            <div class="radio">
+                                <input id="radio-2" type="radio" name="radio" onclick="radio_2()">
+                                <span class="checkmark"></span>
+                            </div>                   
+                            <div class="radio-subscribe">
+                                <p class="radio-subscribe-text-1">4 products for 72 usd / 18$ for each</p>
+                                <p class="radio-subscribe-text-2">You safe 28% on each patent check </p>
+                            </div>
+                            </div>        
+                          </label>
+                          <label class="container">
+                            <div class="container-div">
+                            <div class="radio">
+                                <input id="radio-3" type="radio" name="radio" onclick="radio_3()">
+                                <span class="checkmark"></span>
+                            </div>                   
+                            <div class="radio-subscribe">
+                                <p class="radio-subscribe-text-1">3 products for 60 usd / 20$ for each</p>
+                                <p class="radio-subscribe-text-2">You safe 20% on each patent check </p>
+                            </div>
+                            </div>        
+                          </label>
+                          <label class="container">
+                            <div class="container-div">
+                            <div class="radio">
+                                <input id="radio-4" type="radio" name="radio" onclick="radio_4()">
+                                <span class="checkmark"></span>
+                            </div>                   
+                            <div class="radio-subscribe">
+                                <p class="radio-subscribe-text-1">2 products for 44 usd / 22$ for each</p>
+                                <p class="radio-subscribe-text-2">You safe 12% on each patent check </p>
+                            </div>
+                          </div>        
+                          </label>
+                          <label class="container" style="border: none;">
+                            <div class="container-div">
+                            <div class="radio">
+                                <input id="radio-5" type="radio" name="radio" onclick="radio_5()">
+                                <span class="checkmark"></span>
+                            </div>                   
+                            <div class="radio-subscribe" >
+                                <p class="radio-subscribe-text-1">1 product for 24.99 usd</p>
+                            </div>
+                          </div>        
+                          </label>
+                    </form>
+                    <button type="submit" class="layout-2-button" onclick="lay_2_button()">Continue</button>
+                </div>
+            </div>
+            <div class="layout-3 display-none">
+                <div class="layout-3-info">
+                 <p class="successfull-payment">Successfull payment</p>
+                 <p class="successfull-payment-text">Your request has been accepted and will be processed within 24 working hours. We will send you a payment details and all information to your email.</p>
+                 <div class="successfull-payment-img-div"><img class="successfull-payment-img" src="img/Group.png" alt=""></div>
+                 <button class="layout-3-button" onclick="lay_3_button()">Back</button>
+                </div>
+            </div>
+            <div class="layout-4 display-none">
+                <div class="layout-4-info">
+                  <p class="failed-payment">Your payment failed</p>
+                  <p class="failed-payment-text">Sorry, but we’ve having trouble processing your payment. You have been not charged for this transaction.</p>
+                   <div class="failed-payment-img-div"><img class="failed-payment-img" src="img/оплата.png" alt=""></div>                
+                   <button class="layout-4-button" onclick="lay_4_button()">Try to pay again</button>
+                </div>
+            </div>
+        </div>     
+    </body>
+</html>

@@ -1,0 +1,146 @@
+.layout-3{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 60px #E2E7FF;
+    border-radius: 0px 50px 50px 50px;
+    height: 535px;
+    width: 432px;
+}
+
+.layout-3-info{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 0px;
+} 
+
+.successfull-payment{
+    font-family: GilroyBold;
+    color: #1C154E;
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.successfull-payment-text{
+    font-size: 16px;
+    font-family: GilroyLight;
+    color: #1C154E;
+    opacity: 0.8;
+    margin: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.successfull-payment-img{
+    width: 130px;
+    height: 90px;
+}
+
+.layout-3-button{
+    display: flex;
+    background: #23C967;
+    border-radius: 15px;  
+    width: 100%;
+    font-family: GilroyBold;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-top: 120px;
+    height: 45px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout-3-button:hover{
+    box-shadow: #0af76d 0px 1px 1px 2px;
+}
+
+.layout-4{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 60px #E2E7FF;
+    border-radius: 0px 50px 50px 50px;
+    height: 535px;
+    width: 432px;
+}
+
+.layout-4-info{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+.failed-payment{
+    font-family: GilroyBold;
+    color: #1C154E;
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.failed-payment-text{
+    font-size: 16px;
+    font-family: GilroyLight;
+    color: #1C154E;
+    opacity: 0.8;
+    margin: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+} 
+
+.failed-payment-img{
+   width: 180px;
+   height: 130px;
+
+}
+
+.layout-4-button{
+    display: flex;
+    background: #23C967;
+    border-radius: 15px;  
+    width: 100%;
+    font-family: GilroyBold;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-top: 120px;
+    height: 54px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout-4-button:hover{
+    box-shadow: #0af76d 0px 1px 1px 2px;
+}
+
+.display-none{
+    display: none;
+}
+
+.successfull-payment-img-div{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.failed-payment-img-div{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
